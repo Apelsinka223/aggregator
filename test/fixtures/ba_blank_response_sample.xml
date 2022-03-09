@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <AirShoppingRS xmlns="http://www.iata.org/IATA/EDIST" Version="16.1">
+      <Document>
+        <ReferenceVersion>2016.1</ReferenceVersion>
+      </Document>
+      <Success/>
+      <ShoppingResponseID>
+        <ResponseID>2021-05-18T08:56:43.437Z</ResponseID>
+      </ShoppingResponseID>
+      <OffersGroup>
+        <AirlineOffers>
+          <TotalOfferQuantity>0</TotalOfferQuantity>
+          <Owner>BA</Owner>
+        </AirlineOffers>
+      </OffersGroup>
+      <DataLists>
+        <AnonymousTravelerList>
+          <AnonymousTraveler ObjectKey="SH1">
+            <PTC>ADT</PTC>
+          </AnonymousTraveler>
+        </AnonymousTravelerList>
+        <DisclosureList>
+          <Disclosures ListKey="EuroTraveller">
+            <Description>
+              <Text>Drinks and M&amp;S food available to buy on flights to/from London Heathrow and London Gatwick</Text>
+            </Description>
+            <Description>
+              <Text>Contoured leather seat</Text>
+            </Description>
+          </Disclosures>
+          <Disclosures ListKey="ClubEurope">
+            <Description>
+              <Text>Access to British Airways lounges where available</Text>
+            </Description>
+            <Description>
+              <Text>Dedicated check-in area</Text>
+            </Description>
+            <Description>
+              <Text>Complimentary bar service including champagne upon request </Text>
+            </Description>
+            <Description>
+              <Text>Contoured leather seat with guaranteed window or aisle</Text>
+            </Description>
+            <Description>
+              <Text>Guaranteed window or aisle seat</Text>
+            </Description>
+            <Description>
+              <Text>2 x 32kg checked baggage allowance</Text>
+            </Description>
+          </Disclosures>
+        </DisclosureList>
+        <FareList>
+          <FareGroup refs="SH1" ListKey="FBCODE1">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>LFZ0COW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE2">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>LFV2COW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE3">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>MPZ0COW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE4">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>MPV2COW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE5">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>MZ0COW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE6">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>MV2COW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE7">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>LFV2COMR/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE8">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>MV2COMRW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE9">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>DLV2COW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup refs="SH1" ListKey="FBCODE10">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>DMV2COW/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+        </FareList>
+        <FlightSegmentList>
+          <FlightSegment SegmentKey="BA3292">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>06:35</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LCY</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>07:30</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>CITY AIRPORT</AirportName>
+              <Terminal>
+                <Name/>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>3292</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>CJ</AirlineID>
+              <Name>BA CityFlyer</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>E90</AircraftCode>
+              <Name>Embraer E190SR</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT1H55M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA3294">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>12:00</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LCY</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>12:55</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>CITY AIRPORT</AirportName>
+              <Terminal>
+                <Name/>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>3294</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>CJ</AirlineID>
+              <Name>BA CityFlyer</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>E90</AircraftCode>
+              <Name>Embraer E190SR</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT1H55M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA3296">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>17:25</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LCY</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>18:20</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>CITY AIRPORT</AirportName>
+              <Terminal>
+                <Name/>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>3296</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>CJ</AirlineID>
+              <Name>BA CityFlyer</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>E90</AircraftCode>
+              <Name>Embraer E190SR</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT1H55M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0955">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>20:20</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LHR</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>21:15</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0955</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>32A</AircraftCode>
+              <Name>Airbus A320 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT1H55M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0953">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>16:15</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LHR</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>17:15</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0953</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>32N</AircraftCode>
+              <Name>Airbus A320 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT2H</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0949">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>10:55</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LHR</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>12:05</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0949</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>320</AircraftCode>
+              <Name>Airbus A320 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT2H10M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0951">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>12:45</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LHR</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>13:50</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0951</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>320</AircraftCode>
+              <Name>Airbus A320 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT2H5M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0961">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>18:45</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LHR</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>19:50</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0961</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>32A</AircraftCode>
+              <Name>Airbus A320 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT2H5M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0947">
+            <Departure>
+              <AirportCode>MUC</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>07:15</Time>
+              <AirportName>MUNICH</AirportName>
+              <Terminal>
+                <Name>1</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LHR</AirportCode>
+              <Date>2021-09-28</Date>
+              <Time>08:30</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0947</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>321</AircraftCode>
+              <Name>Airbus A321 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT2H15M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+        </FlightSegmentList>
+        <FlightList>
+          <Flight FlightKey="Flight1">
+            <Journey>
+              <Time>PT1H55M</Time>
+            </Journey>
+            <SegmentReferences>BA3292</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight2">
+            <Journey>
+              <Time>PT1H55M</Time>
+            </Journey>
+            <SegmentReferences>BA3294</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight3">
+            <Journey>
+              <Time>PT1H55M</Time>
+            </Journey>
+            <SegmentReferences>BA3296</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight4">
+            <Journey>
+              <Time>PT1H55M</Time>
+            </Journey>
+            <SegmentReferences>BA0955</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight5">
+            <Journey>
+              <Time>PT2H</Time>
+            </Journey>
+            <SegmentReferences>BA0953</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight6">
+            <Journey>
+              <Time>PT2H10M</Time>
+            </Journey>
+            <SegmentReferences>BA0949</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight7">
+            <Journey>
+              <Time>PT2H5M</Time>
+            </Journey>
+            <SegmentReferences>BA0951</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight8">
+            <Journey>
+              <Time>PT2H5M</Time>
+            </Journey>
+            <SegmentReferences>BA0961</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight9">
+            <Journey>
+              <Time>PT2H15M</Time>
+            </Journey>
+            <SegmentReferences>BA0947</SegmentReferences>
+          </Flight>
+        </FlightList>
+        <OriginDestinationList>
+          <OriginDestination OriginDestinationKey="OD1">
+            <DepartureCode>MUC</DepartureCode>
+            <ArrivalCode>LON</ArrivalCode>
+            <FlightReferences>Flight1 Flight2 Flight3 Flight4 Flight5 Flight6 Flight7 Flight8 Flight9</FlightReferences>
+          </OriginDestination>
+        </OriginDestinationList>
+        <PriceClassList>
+          <PriceClass ObjectKey="BASIC">
+            <Name>BASIC</Name>
+            <Code>HBO</Code>
+            <Descriptions>
+              <Description>
+                <Text>Allocated seats or pay to choose anytime</Text>
+              </Description>
+              <Description>
+                <Text>Hand baggage only</Text>
+              </Description>
+              <Description>
+                <Text>Last to board</Text>
+              </Description>
+            </Descriptions>
+          </PriceClass>
+          <PriceClass ObjectKey="PLUS">
+            <Name>PLUS</Name>
+            <Descriptions>
+              <Description>
+                <Text>Free seat choice from 48 hours before departure</Text>
+              </Description>
+              <Description>
+                <Text>1 x 23kg checked baggage allowance</Text>
+              </Description>
+            </Descriptions>
+          </PriceClass>
+        </PriceClassList>
+      </DataLists>
+      <Metadata>
+        <Other>
+          <OtherMetadata>
+            <CurrencyMetadatas>
+              <CurrencyMetadata MetadataKey="EUR">
+                <Decimals>2</Decimals>
+              </CurrencyMetadata>
+            </CurrencyMetadatas>
+          </OtherMetadata>
+        </Other>
+      </Metadata>
+    </AirShoppingRS>
+  </soap:Body>
+</soap:Envelope>

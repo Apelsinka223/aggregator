@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <AirShoppingRS xmlns="http://www.iata.org/IATA/EDIST" Version="16.1">
+      <Document>
+        <ReferenceVersion>2016.1</ReferenceVersion>
+      </Document>
+      <Success/>
+      <ShoppingResponseID>
+        <ResponseID>2021-05-18T08:56:43.437Z</ResponseID>
+      </ShoppingResponseID>
+      <OffersGroup>
+        <AirlineOffers>
+          <TotalOfferQuantity>36</TotalOfferQuantity>
+          <Owner>BA</Owner>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER0</OfferID>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER1</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="EUR">INVALID</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="EUR">INVALID</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="EUR">86.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="EUR">46.38</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA3292">
+                    <ClassOfService refs="FBCODE1">
+                      <Code SeatsLeft="9">L</Code>
+                      <MarketingName>Euro Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER2</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="EUR">132.38</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="EUR">132.38</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="EUR">86.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="EUR">46.38</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA3294">
+                    <ClassOfService refs="FBCODE1">
+                      <Code SeatsLeft="9">L</Code>
+                      <MarketingName>Euro Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+        </AirlineOffers>
+      </OffersGroup>
+    </AirShoppingRS>
+  </soap:Body>
+</soap:Envelope>
