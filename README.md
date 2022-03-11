@@ -7,7 +7,7 @@ When working on the task, please make sure that:
 ● When a GET request is sent to this endpoint with search details as query params, your aggregator shall trigger two concurrent HTTP GET requests to the two NDC APIs (called AirShoppingRQ in NDC terms).  
 ● After you received both responses, parse the XML responses.  
 ● Potentially both responses will have multiple offers (for multiple different flights, but that is
-not important for this task). 
+not important for this task).   
 ● Just look up the cheapest offer considering both lists of offers and return it to the client who made the original GET request to your Aggregator.  
 Lastly, we want to make sure you don't waste time in setting up for this task, so in order to let you carry out this assessment, we have the sample NDC API responses of two real airlines: British Airways (code: BA) and Air France / KLM (codes: AFKL), you can use those to mock the actual APIs and its responses.  
 Mock APIs:  
@@ -25,7 +25,8 @@ e.g.: `/findCheapestOffer?origin=BER&destination=LHR&departureDate=2019-07-17`
 `http://localhost:4000/findCheapestOffer?origin=BER&destination=LHR&departureDate=2019-07-17`  
 As you can see, three query parameters are needed:  
 ● airport code of the origin  
-● airport code of the destination ● departure date  
+● airport code of the destination   
+● departure date  
 
 *Response JSON*  
 `{data: {cheapestOffer: {amount: 55.19, airline: "BA"}}}`
