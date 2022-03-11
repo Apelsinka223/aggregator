@@ -30,6 +30,21 @@ if config_env() == :prod do
     ],
     secret_key_base: secret_key_base
 
+  config :aggregator, :ndc_apis, %{
+    "BA" => %{
+      code: "BA",
+      url: System.get_env("NDC_BA_URL"),
+      auth_token: System.get_env("NDC_BA_TOKEN"),
+      module: Aggregator.NDC.BA
+    },
+    "AFKLM" => %{
+      code: "AFKLM",
+      url: System.get_env("NDC_AFKLM_URL"),
+      auth_token: System.get_env("NDC_AFKLM_TOKEN"),
+      module: Aggregator.NDC.AFKLM
+    }
+  }
+
   # ## Using releases
   #
   # If you are doing OTP releases, you need to instruct Phoenix
